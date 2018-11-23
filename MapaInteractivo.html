@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class = "fix">
+  <head>
+    <!--Se trabajará con caracteres utf-8-->
+    <meta charset = "utf-8">
+    <link rel = "stylesheet" type = "text/css" href = "estilos.css"/>
+    <title>Auditorio le&oacute;n de Greiff UN</title>
+    <!--Para facilitar la busqueda de la página en un buscador, se proporcionan algunas palabras clave y el contenido en general de la página-->
+    <meta name = "keywords" content = "Auditorio, Le&oacute;n de Greiff, Universidad Nacional de Colombia, Cultura, Orquesta Filarmoica de Bogot&aacute;"/>
+    <meta name = "description" content = "Esta p&aacute;gina describe la historia, ubicaci&oacute; e importancia del Auditorio Le&oacute;n de Greiff de la Universidad Nacional de Colombia."/>
+    <script src = "phaser.js"></script>
+    <script src = "primeraPersona.js"></script>
+    <script src = "mapaDos.js"></script>
+    <script src = "mapaUno.js"></script>
+    <script src = "boton.js"></script>
+    <script src = "main.js"></script>
+  </head>
+  <body>
+    <!--Encabezado de la página-->
+    <header class = "encabezado">
+      <!--Elemento que contiene y organiza los elementos del encabezado (Imagen y Título)-->
+      <div class = "contenedor fix">
+        <!--Imagen del encabezado-->
+        <div class = "logo">
+          <a class = "formatLinks" href = "index.html" target = "_self"><img src = "Imagenes/UN.png" alt = "Logo UNAL"/></a>
+        </div>
+        <!--Título del encabezado-->
+        <div class = "titulo">
+          <h1><a class = "formatLinks" href = "index.html" target = "_self">Auditorio Le&oacute;n de Greiff</a></h1>
+        </div>
+      </div>
+    </header>
+
+    <!--Contenido de la página (Todo lo que no es ni encabezado ni pie de página)-->
+    <section class = "contenido fix">
+      <!--Menús de navegación-->
+      <nav class = "cajaMenu fix">
+        <ul class = "menu fix">
+          <li><a class = "formatLinks" href = "EspacioUbicacion.html" target = "_self">Espacio f&iacute;sico y ubicaci&oacute;n</a></li>
+          <li><a class = "formatLinks" href = "QuienPuedeEntrar.html" target = "_self">¿Qui&eacute;n puede entrar?</a></li>
+          <li><a class = "formatLinks" href = "EventosAuditorio.html" target = "_self">Eventos del Auditorio</a></li>
+          <li><a class = "formatLinks" href = "Historia.html" target = "_self">Historia</a></li>
+          <li><a class = "formatLinks" href = "MapaInteractivo.html" target = "_self">Mapa interactivo</a></li>
+          <li><a class = "formatLinks" href = "Referencias.html" target = "_self">Referencias</a></li>
+        </ul>
+      </nav>
+
+      <!--Sección principal de la página-->
+      <section id = "presentacion">
+        <!--Encabezado de la seccion principal (título de bienvenida)-->
+        <header>
+          <h2>Mapa Interactivo</h2>
+        </header>
+          <p>Haga click en las se&ntilde;ales azules para ver la imagen del lugar seleccionado. Puede tambien navegar en primera persona alrededor del Auditorio Le&oacute;n de Greiff y as&iacute; conocerlo mucho mejor.</p>
+          <div id = "contenedor-mapa" class = "mapa"></div>
+      </section>
+    </section>
+
+    <!--Pie de página-->
+    <footer id = "pieDePagina">
+      <!--Contenedor de todo el pie de página para facilitar el darle formato-->
+      <div class = "contenedorPie fix">
+        <!--Contenedor de texto de pie de página-->
+        <div class = "contTexto">
+          <h5>P&aacute;gina elaborada por: Diego Alejandro S&aacute;nchez L&oacute;pez</h5>
+        </div>
+        <!--Imagenes del pié de pagina-->
+        <div class = "imagenesPie fix">
+          <!--Contenedor Imagen Javascript-->
+          <figure class = "contImagenJavascript">
+            <img src = "imagenes/javascript.png" alt = "Javascript"/>
+          </figure>
+          <!--Contenedor Imagen Css3-->
+          <figure class = "contImagenCss">
+            <img src = "imagenes/css3.png" alt = "css3"/>
+          </figure>
+          <!--Contenedor Imagen html5-->
+          <figure class = "contImagenHtml">
+            <img src = "imagenes/html5.png" alt = "html5"/>
+          </figure>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
