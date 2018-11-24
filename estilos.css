@@ -493,13 +493,12 @@ h1 .formatLinks:visited, h1 .formatLinks:link {
 /*Fondo del pie de página*/
 #pieDePagina {
   position: fixed;
-  height: 5%;
-  width: 100%;
   background-color: #ededed;
 }
 
 /*Formato del elemento que contiene todo el pie de página*/
 #pieDePagina .contenedorPie {
+  width: 100%;
   padding-top: 10px;
 }
 
