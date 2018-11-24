@@ -385,7 +385,7 @@ h1 .formatLinks:visited, h1 .formatLinks:link {
 /*Quitar formato por default a los links visitados y no visitados que estén en #presentacion*/
 #presentacion a:visited , #presentacion a:link {
   text-decoration: none;
-  color: #000;
+  color: #08169a;
 }
 
 /*Cuando se pase el cursor sobre un elemento <a> dentro de un elemento <list> que esté en #presentacion*/
